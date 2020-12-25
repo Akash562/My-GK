@@ -20,8 +20,11 @@ export class HomePage {
     this.navctrl.push(MypresidentComponent, {});
   }
 
-getsymbol(){
-  this.navctrl.push(MysymbolsComponent, {});
-}
+  getsymbol() {
+    this.navctrl.push(MysymbolsComponent, {});
+  }
 
+  getcapitals() {
+    //this.navctrl.push(MysymbolsComponent, {});
+  }
 }
