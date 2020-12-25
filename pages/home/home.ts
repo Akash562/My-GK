@@ -27,4 +27,5 @@ export class HomePage {
   getcapitals() {
     //this.navctrl.push(MysymbolsComponent, {});
   }
+  
 }
