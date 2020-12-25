@@ -1,0 +1,20 @@
+ion-col {
+  border: 1px solid grey;
+  font-size: 14px;
+  text-align: center;
+}
+
+.ionpadding {
+  text-align: center;
+}
+
+.colhed {
+  font-size: 18px;
+  background-color: #f5deb3;
+  text-align: center;
+}
+
+h6 {
+  color: blueviolet;
+}
+
