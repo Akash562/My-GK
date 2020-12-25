@@ -9,6 +9,7 @@ import { HomePage } from "../pages/home/home";
 import { TabsPage } from "../pages/tabs/tabs";
 import { MystatesComponent } from "../pages/Data/states/mystates.component";
 import { MypresidentComponent } from "../pages/Data/mypresident/mypresident.component";
+import { MysymbolsComponent } from "../pages/Data/mysymbols/mysymbols.component";
 
 @NgModule({
   declarations: [
@@ -18,9 +19,10 @@ import { MypresidentComponent } from "../pages/Data/mypresident/mypresident.comp
     HomePage,
     TabsPage,
     MystatesComponent,
-    MypresidentComponent
+    MypresidentComponent,
+    MysymbolsComponent
   ],
-  exports: [MystatesComponent, MypresidentComponent],
+  exports: [MystatesComponent, MypresidentComponent, MysymbolsComponent],
   imports: [BrowserModule, IonicModule.forRoot(MyApp)],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -30,7 +32,8 @@ import { MypresidentComponent } from "../pages/Data/mypresident/mypresident.comp
     HomePage,
     TabsPage,
     MystatesComponent,
-    MypresidentComponent
+    MypresidentComponent,
+    MysymbolsComponent
   ],
   providers: [{ provide: ErrorHandler, useClass: IonicErrorHandler }]
 })

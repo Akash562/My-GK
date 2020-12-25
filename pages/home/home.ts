@@ -1,6 +1,7 @@
 import { Component } from "@angular/core";
 import { NavController } from "ionic-angular";
 import { MypresidentComponent } from "../Data/mypresident/mypresident.component";
+import { MysymbolsComponent } from "../Data/mysymbols/mysymbols.component";
 import { MystatesComponent } from "../Data/states/mystates.component";
 
 @Component({
@@ -18,4 +19,9 @@ export class HomePage {
   getpresident() {
     this.navctrl.push(MypresidentComponent, {});
   }
+
+getsymbol(){
+  this.navctrl.push(MysymbolsComponent, {});
+}
+
 }
