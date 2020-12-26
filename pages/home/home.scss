@@ -14,8 +14,7 @@
   color: #fff;
 }
 
-.bi {
-     background-image: url('/tumblr.gif');
-     background-repeat: no-repeat;
-     background-size: cover;
+.bg {
+  background: linear-gradient(to right, #4b1248, #f0c27b);
+  //background-image: linear-gradient(315deg, #0d0a0b 0%, #009fc2 74%);
 }
