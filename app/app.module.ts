@@ -10,6 +10,7 @@ import { TabsPage } from "../pages/tabs/tabs";
 import { MystatesComponent } from "../pages/Data/states/mystates.component";
 import { MypresidentComponent } from "../pages/Data/mypresident/mypresident.component";
 import { MysymbolsComponent } from "../pages/Data/mysymbols/mysymbols.component";
+import { MycapitalsComponent } from "../pages/Data/mycapitals/mycapitals.component";
 
 @NgModule({
   declarations: [
@@ -20,9 +21,15 @@ import { MysymbolsComponent } from "../pages/Data/mysymbols/mysymbols.component"
     TabsPage,
     MystatesComponent,
     MypresidentComponent,
-    MysymbolsComponent
+    MysymbolsComponent,
+    MycapitalsComponent
   ],
-  exports: [MystatesComponent, MypresidentComponent, MysymbolsComponent],
+  exports: [
+    MystatesComponent,
+    MypresidentComponent,
+    MysymbolsComponent,
+    MycapitalsComponent
+  ],
   imports: [BrowserModule, IonicModule.forRoot(MyApp)],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -33,7 +40,8 @@ import { MysymbolsComponent } from "../pages/Data/mysymbols/mysymbols.component"
     TabsPage,
     MystatesComponent,
     MypresidentComponent,
-    MysymbolsComponent
+    MysymbolsComponent,
+    MycapitalsComponent
   ],
   providers: [{ provide: ErrorHandler, useClass: IonicErrorHandler }]
 })
